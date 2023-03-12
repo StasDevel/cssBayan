@@ -32,3 +32,38 @@
     font-size: 2rem;
     font-weight: bold;
 }
+
+.smallContainer {
+    border-top: 0.1rem solid black;
+    padding: 0.5rem 0;
+}
+
+.smallContainer_text {
+    width: 100%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.memas_img  { 
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 0;
+    transition: all 0.5s;
+}
+
+.plus {
+    max-width: 1.3rem;
+    max-height: 1.3rem;
+    opacity: 0;
+    transition: all 0.5s; 
+}
+
+.smallContainer {
+    color:rgb(0, 141, 206);
+}
+
+.item-input:checked ~ .item-label .smallContainer_text {
+    color: black;
+}
