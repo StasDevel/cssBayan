@@ -27,3 +27,8 @@
 .projectName {
     padding: 1rem 0;
 }
+
+.projectName p{
+    font-size: 2rem;
+    font-weight: bold;
+}
