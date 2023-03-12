@@ -77,7 +77,43 @@
     height: 20rem;
 }
 
+@media (min-width: 320px) and (max-width: 820px) {
+    html {
+        font-size: 10px;
+    }
+    .main {
+        width: 95%
+    }
+}
+  
+@media (min-width: 821px) and (max-width: 1920px) {
+    html {
+        font-size: 13px;
+    }
+}
 
+@media (any-hover: hover) {
+    .main:hover * {
+        cursor: pointer;
+    }
+    
+    .main:hover .smallContainer_text {
+        color: black;
+    }
+    
+    .main:hover .smallContainer:active .smallContainer_text{
+        color:rgb(0, 141, 206);
+    }
+	
+    .main:hover .plus {
+        opacity: 1;
+    }
+
+    .smallContainer:hover .plus {
+        transform: rotate(45deg);
+        transition: all 0.5s;
+    }
+}
 
 
 
