@@ -67,3 +67,17 @@
 .item-input:checked ~ .item-label .smallContainer_text {
     color: black;
 }
+
+.item-input:checked ~ .item-label .plus{
+    transform: rotate(45deg);
+    transition: all 0.5s;
+}
+
+.item-input:checked ~ label .memas_img, .smallContainer:hover .memas_img {
+    height: 20rem;
+}
+
+
+
+
+
